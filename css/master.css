@@ -877,7 +877,16 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important;}
 @media (min-width:992px) and (max-width:1199px){.hidden-lg.hidden-md,tr.hidden-lg.hidden-md,th.hidden-lg.hidden-md,td.hidden-lg.hidden-md{display:none !important;}}
 @media (min-width:1200px){.hidden-lg,tr.hidden-lg,th.hidden-lg,td.hidden-lg{display:none !important;}}
 .visible-print,tr.visible-print,th.visible-print,td.visible-print{display:none !important;}
-@media print{.visible-print{display:block !important;}tr.visible-print{display:table-row !important;} th.visible-print,td.visible-print{display:table-cell !important;} .hidden-print,tr.hidden-print,th.hidden-print,td.hidden-print{display:none !important;}}@font-face{font-family:'social-icons';src:url('fonts/Socialico.ttf') format('truetype');font-weight:normal;font-style:normal;}body{padding-top:71px;}
+@media print{.visible-print{display:block !important;}tr.visible-print{display:table-row !important;} th.visible-print,td.visible-print{display:table-cell !important;} .hidden-print,tr.hidden-print,th.hidden-print,td.hidden-print{display:none !important;}}@font-face{font-family:'social-icons';src:url('fonts/Socialico.ttf') format('truetype');font-weight:normal;font-style:normal;}body{padding:71px 0 77px;}
 footer .navbar-text{font-size:.9em;padding-top:8px;}footer .navbar-text>span{display:inline-block;}footer .navbar-text>span:before{content:' | ';}
 footer .navbar-text>a{display:inline-block;}
 footer .social-nav{font-family:'social-icons';font-size:2.8em;-webkit-font-smoothing:subpixel-antialiased;}footer .social-nav a{display:block;padding-top:25px !important;}
+@media (max-width:767px){footer{text-align:center;}footer .navbar-text{float:none;}}
+.sidebar ul{padding:0;list-style-position:inside;}.sidebar ul.address{list-style-type:none;}
+@media (max-width:767px){.sidebar:after{display:none;content:'at-xs';}}
+section#main .hide-default{display:none;}
+@media (max-width:767px){section.home .home-header h1{text-align:center;}}
+section.contact-us .sidebar #employment-cta{display:block;}
+section.menu .nav{padding-bottom:20px;}
+section.menu .panel .panel-footer ul{list-style-position:inside;padding:0;margin:0;}
+section.employment .panel-title a{display:block;text-decoration:none;}

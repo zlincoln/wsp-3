@@ -1,9 +1,10 @@
 <?php include('includes/header.php'); ?>
-<section>
+<section id="main" class="home">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 home-header">
 				<h1>Stella's Neighborhood Grill</h1>
+				<?php include('includes/sidebar.php'); ?>
 			</div>
 		</div>
 		<div class="row">
@@ -20,6 +21,7 @@
 <script type="text/javascript">
 	$(function(){
 		$('.home-copy').fitVids();
+		$('.home-header .sidebar').addClass('hidden-sm hidden-md hidden-lg').removeClass('hidden-xs col-sm-4');
 	});
 </script>
 <?php include('includes/footer.php'); ?>

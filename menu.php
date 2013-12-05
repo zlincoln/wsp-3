@@ -1,5 +1,5 @@
 <?php include('includes/header.php'); ?>
-<section>
+<section id="main" class="menu">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">

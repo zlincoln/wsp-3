@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Stella's Neighborhood Grill</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="css/master.css">
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/thirdparty/bootstrap.min.js"></script>

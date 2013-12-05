@@ -1,5 +1,5 @@
 body{
-	padding-top: 71px;
+	padding: 71px 0 77px;
 }
 
 footer{
@@ -23,6 +23,28 @@ footer{
 		a{
 			display: block;
 			padding-top: 25px !important;
+		}
+	}
+	@media(max-width: @screen-xs-max){
+		text-align: center;
+		.navbar-text{
+			float: none;
+		}
+	}
+}
+
+.sidebar{
+	ul{
+		padding:0;
+		list-style-position: inside;
+		&.address{
+			list-style-type: none;
+		}
+	}
+	@media(max-width: @screen-xs-max){
+		&:after{
+			display: none;
+			content: 'at-xs';
 		}
 	}
 }
