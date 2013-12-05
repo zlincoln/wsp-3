@@ -21,13 +21,13 @@
 						</button>
 						<a class="navbar-brand" href="#">Stella's Neighborhood Grill</a>
 					</div>
-					<div class="collapse navbar-collapse pull-right">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#">Menu</a></li>
-							<li><a href="#">Events</a></li>
-							<li><a href="#">Photos</a></li>
-							<li><a href="#">Contact Us</a></li>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="menu.html">Menu</a></li>
+							<li><a href="events.html">Events</a></li>
+							<li><a href="gallery.html">Photos</a></li>
+							<li><a href="contactus.html">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
