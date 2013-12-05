@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stella's Neighborhood Grill</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/master.css">
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/thirdparty/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/thirdparty/jquery.fitvids.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">Stella's Neighborhood Grill</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active">
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="menu.html">Menu</a>
+							</li>
+							<li>
+								<a href="events.html">Events</a>
+							</li>
+							<li>
+								<a href="photos.html">Photos</a>
+							</li>
+							<li>
+								<a href="contactus.html">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section id="main" class="employment">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Employment</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-10">
+					<h4>
+						Stella's is always looking for talent and personable individuals, so join our team!
+					</h4>
+					<p>Available positions:</p>
+					<div class="panel-group">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">
+									<a href="#panel1" data-toggle="collapse" data-parent=".panel-group">Waiter/Waitress</a>
+								</h3>
+							</div>
+							<div id="panel1" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>
+										Must be friendly, composed, and willing to work weekends!  No experience neccessary - we'll give you the training and support you need to be successful.
+									</p>
+									<form role="form">
+										<div class="form-group">
+											<label for="name">Name</label>
+											<input type="text" class="form-control" id="name" placeholder="Suzy Q"></div>
+										<div class="form-group">
+											<label for="email">
+												Email
+												<span class="small">*</span>
+											</label>
+											<input type="email" class="form-control" id="email" placeholder="example@email.com" required></div>
+										<div class="form-group">
+											<label for="message">
+												Message
+												<span class="small">*</span>
+											</label>
+											<textarea class="form-control" id="message" rows="5" placeholder="Tell us about yourself!" required></textarea>
+										</div>
+										<button type="submit" class="btn btn-primary btn-block">Send!</button>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">
+									<a href="#panel2" data-toggle="collapse" data-parent=".panel-group">Dishwasher</a>
+								</h3>
+							</div>
+							<div id="panel2" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>
+										Must be friendly, composed, and willing to work weekends!  No experience neccessary - we'll give you the training and support you need to be successful.
+									</p>
+									<form role="form">
+										<div class="form-group">
+											<label for="name">Name</label>
+											<input type="text" class="form-control" id="name" placeholder="Suzy Q"></div>
+										<div class="form-group">
+											<label for="email">
+												Email
+												<span class="small">*</span>
+											</label>
+											<input type="email" class="form-control" id="email" placeholder="example@email.com" required></div>
+										<div class="form-group">
+											<label for="message">
+												Message
+												<span class="small">*</span>
+											</label>
+											<textarea class="form-control" id="message" rows="5" placeholder="Tell us about yourself!" required></textarea>
+										</div>
+										<button type="submit" class="btn btn-primary btn-block">Send!</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<nav class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="navbar-text navbar-left">
+							<a href="#">&copy; 2011 Stella's Neighborhood Grill</a>
+							<span>All rights reserved</span>
+							<span>
+								Dev:
+								<a href="http://zacharylincoln.com" target="_blank">Zachary Lincoln</a>
+							</span>
+						</div>
+						<ul class="nav navbar-nav navbar-right hidden-xs social-nav">
+							<li>
+								<a href="#">f</a>
+							</li>
+							<li>
+								<a href="#">l</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</footer>
+	<script type="text/javascript">
+		$(function(){
+			var url = window.location.pathname;
+			var filename = url.substring(url.lastIndexOf('/')+1);
+			var part = filename.split(".");
+			if(part[0] != ''){
+				filename = (part[0] == 'employment') ? 'contactus' : part[0];
+				$('nav .nav li').removeClass('active');
+				$('nav .nav a[href*="'+filename+'"]').parent().addClass('active')
+			}
+		});
+	</script>
+</body>
+</html>
