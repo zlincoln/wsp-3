@@ -2,6 +2,12 @@
 <section>
 	<div class="container">
 		<div class="row">
+			<div class="col-xs-12">
+				<h1>Upcoming Events</h1>
+				<h4>Join us for some fun, and save a couple bucks!</h4>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-xs-12 col-sm-8">
 				<div class="panel panel-default">
 					<div class="panel-heading">
