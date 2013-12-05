@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/master.css">
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/thirdparty/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/thirdparty/jquery.fitvids.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">

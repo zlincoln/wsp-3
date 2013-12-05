@@ -2,9 +2,14 @@
 <section id="main" class="contact-us">
 	<div class="container">
 		<div class="row">
+			<div class="col-xs-12">
+				<h1>Contact Us!</h1>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-xs-12 col-sm-8">
-				<h1><a href="tel:17702221331">770.222.1331</a></h1>
-				<h3>Send us some email love!</h3>
+				<h3>Phone: <a href="tel:17702221331">770.222.1331</a></h3>
+				<h4>Send us some email love!</h4>
 				<form role="form">
 					<div class="form-group">
 						<label for="name">Name</label>
