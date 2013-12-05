@@ -17,5 +17,17 @@
 			</div>
 		</nav>
 	</footer>
+	<script type="text/javascript">
+		$(function(){
+			var url = window.location.pathname;
+			var filename = url.substring(url.lastIndexOf('/')+1);
+			var part = filename.split(".");
+			if(part[0] != ''){
+				filename = (part[0] == 'employment') ? 'contactus' : part[0];
+				$('nav .nav li').removeClass('active');
+				$('nav .nav a[href*="'+filename+'"]').parent().addClass('active')
+			}
+		});
+	</script>
 </body>
 </html>

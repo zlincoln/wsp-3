@@ -20,14 +20,14 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Stella's Neighborhood Grill</a>
+						<a class="navbar-brand" href="index.html">Stella's Neighborhood Grill</a>
 					</div>
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="menu.html">Menu</a></li>
 							<li><a href="events.html">Events</a></li>
-							<li><a href="gallery.html">Photos</a></li>
+							<li><a href="photos.html">Photos</a></li>
 							<li><a href="contactus.html">Contact Us</a></li>
 						</ul>
 					</div>
