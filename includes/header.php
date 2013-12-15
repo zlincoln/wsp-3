@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
 	<title>Stella's Neighborhood Grill</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -20,7 +20,11 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html">Stella's Neighborhood Grill</a>
+						<a class="navbar-brand" href="index.html">
+							<h1>Stella's Neighborhood Grill</h1>
+							<img class="img-responsive visible-md visible-lg" src="images/stella-logo-desktop.png" alt="Stella's Neighborhood Grill">
+							<img class="img-responsive visible-xs visible-sm" src="images/stella-logo-mobile.png" alt="Stella's Neighborhood Grill">
+						</a>
 					</div>
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">

@@ -1,10 +1,23 @@
 <?php include('includes/header.php'); ?>
+<section id="banner" class="home">
+	<div class="copy-wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-8">
+					<h2>Stella's Neighborhood Grill</h2>
+					<p>Serving fresh food, specialty sauces and seasonings</p>
+					<p>Stella's is a must try for a real taste sensation!</p>
+					<a href="menu.html" class="btn btn-primary btn-lg">View Our Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <section id="main" class="home">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 home-header">
-				<h1>Stella's Neighborhood Grill</h1>
-				<?php include('includes/sidebar.php'); ?>
+			<div class="col-xs-12 page-heading">
+				<h2>Perfection.</h2>
 			</div>
 		</div>
 		<div class="row">

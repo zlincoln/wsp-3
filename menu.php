@@ -1,6 +1,11 @@
 <?php include('includes/header.php'); ?>
 <section id="main" class="menu">
 	<div class="container">
+		<div class="row page-heading">
+			<div class="col-xs-12">
+				<h2>Our Menu <a href="tel:17702221331" class="btn btn-default pull-right" style="display:none;">Call In Order</a></h2>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-xs-12">
 				<ul class="nav nav-pills nav-justified">

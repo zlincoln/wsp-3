@@ -1,9 +1,9 @@
 <?php include('includes/header.php'); ?>
-<section>
+<section id="main" class="events">
 	<div class="container">
-		<div class="row">
+		<div class="row page-heading">
 			<div class="col-xs-12">
-				<h1>Upcoming Events</h1>
+				<h2>Upcoming Events</h2>
 				<h4>Join us for some fun, and save a couple bucks!</h4>
 			</div>
 		</div>

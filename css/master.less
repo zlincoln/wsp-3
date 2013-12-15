@@ -1,5 +1,16 @@
 @import 'bootstrap/bootstrap';
 
+@font-face {
+  font-family: 'bree_serifregular';
+  src: url('fonts/stellasbreeserif-regular.eot');
+  src: url('fonts/stellasbreeserif-regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/stellasbreeserif-regular.woff') format('woff'),
+       url('fonts/stellasbreeserif-regular.ttf') format('truetype'),
+       url('fonts/stellasbreeserif-regular.svg#bree_serifregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face{
 	font-family: 'social-icons';
 	src: url('fonts/Socialico.ttf') format('truetype');
@@ -7,48 +18,28 @@
 	font-style: normal;
 }
 
+.bree-stack{
+	font-family: 'bree_serifregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.social-stack{
+	font-family: 'social-icons';
+}
+
+//colors
+@ketchup: #51000D;
+@orange-red: #D5281D;
+@stella-orange: #FF4F2C;
+@text-gray: #2E2828;
+@cream: #F3E6D0;
+@lettuce: #c5d580;
+@steel: #736d63;
+
+@font-size: 16;
+
 @import 'globals';
-
-section#main{
-	.hide-default{
-		display: none;
-	}
-}
-
-section.home{
-	.home-header{
-		@media(max-width: @screen-xs-max){
-			h1{
-				text-align: center;
-			}
-		}
-	}
-}
-
-section.contact-us{
-	.sidebar #employment-cta{
-		display: block;
-	}
-}
-
-section.menu{
-	.nav{
-		padding-bottom: 20px;
-	}
-	.panel{
-		.panel-footer{
-			ul{
-				list-style-position: inside;
-				padding: 0;
-				margin: 0;
-			}
-		}
-	}
-}
-
-section.employment{
-	.panel-title a{
-		display: block;
-		text-decoration: none;
-	}
-}
+@import 'template-home';
+@import 'template-menu';
+@import 'template-photos';
+@import 'template-contactus';
+@import 'template-employment';

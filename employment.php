@@ -1,14 +1,14 @@
 <?php include('includes/header.php'); ?>
 <section id="main" class="employment">
 	<div class="container">
-		<div class="row">
+		<div class="row page-heading">
 			<div class="col-xs-12">
-				<h1>Employment</h1>
+				<h2>Employment</h2>
+				<p>Stella's is always looking for talent and personable individuals, so join our team!</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-sm-10">
-				<h4>Stella's is always looking for talent and personable individuals, so join our team!</h4>
 				<p>Available positions:</p>
 				<div class="panel-group">
 					<div class="panel panel-default">

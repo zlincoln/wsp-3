@@ -1,10 +1,10 @@
 <?php include('includes/header.php'); ?>
-<section id="main" class="gallery">
+<section id="main" class="photos">
 	<div class="container">
-		<div class="row">
+		<div class="row page-heading">
 			<div class="col-xs-12">
-				<h1>Gallery</h1>
-				<h4>Check out the beauty of our location and staff!</h4>
+				<h2>Gallery</h2>
+				<p>Check out the beauty of our location and staff!</p>
 			</div>
 		</div>
 		<div class="row">

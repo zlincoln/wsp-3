@@ -1,9 +1,9 @@
 <?php include('includes/header.php'); ?>
 <section id="main" class="contact-us">
 	<div class="container">
-		<div class="row">
+		<div class="row page-heading">
 			<div class="col-xs-12">
-				<h1>Contact Us!</h1>
+				<h2>Contact Us!</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -21,14 +21,14 @@
 					</div>
 					<div class="form-group">
 						<label for="message">Message<span class="small">*</span></label>
-						<textarea class="form-control" id="message" rows="5" placeholder="Delicious :)" required></textarea>
+						<textarea class="form-control input-lg" id="message" rows="5" placeholder="Delicious :)" required></textarea>
 					</div>
 					<div class="checkbox">
 						<label for="newsletter">
 							<input type="checkbox" id="newsletter" checked> I want to join Club Stella!
 						</label>
 					</div>
-					<button type="submit" class="btn btn-primary btn-block">Send!</button>
+					<button type="submit" class="btn btn-primary btn-block btn-lg">Send!</button>
 				</form>
 			</div>
 			<?php include('includes/sidebar.php'); ?>
