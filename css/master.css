@@ -894,6 +894,8 @@ input:-moz-placeholder,textarea:-moz-placeholder,.form-control:-moz-placeholder{
 input::-moz-placeholder,textarea::-moz-placeholder,.form-control::-moz-placeholder{color:rgba(46, 40, 40, 0.4);}
 input:-ms-input-placeholder,textarea:-ms-input-placeholder,.form-control:-ms-input-placeholder{color:rgba(46, 40, 40, 0.4);}
 div.fluid-width-video-wrapper{margin-bottom:10px;}
+.modal .modal-content{background:#f3e6d0;border:2px solid #51000d;}.modal .modal-content .modal-header{border-bottom:1px solid #51000d;}
+.modal .modal-content .modal-footer{border-top:1px solid #51000d;}
 nav.navbar-fixed-top{-webkit-transition:background-color .2s, border-color .2s;transition:background-color .2s, border-color .2s;background:#2e2828;border-bottom:2px solid #51000d;}nav.navbar-fixed-top.out{background-color:transparent;border-color:transparent;}
 nav.navbar-fixed-top div.navbar-header a.navbar-brand{max-width:230px;padding:6px 15px;}nav.navbar-fixed-top div.navbar-header a.navbar-brand h1{display:none;}
 nav.navbar-fixed-top div.navbar-collapse ul.nav{margin-bottom:-2px;}nav.navbar-fixed-top div.navbar-collapse ul.nav li a{padding:15px 15px 13px;border-bottom:2px solid transparent;color:#f3e6d0;}

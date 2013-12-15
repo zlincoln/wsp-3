@@ -1,5 +1,5 @@
 <div class="well">
-	<button class="btn btn-primary btn-block" role="button">Directions</button>
+	<button class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#directions">Directions</button>
 	<a href="tel:17702221331" class="btn btn-primary btn-block" role="button">Place an Order</a>
 	<h5>Hours</h5>
 	<ul class="hours">
@@ -16,7 +16,7 @@
 		<li>F: 770.222.3371</li>
 	</ul>
 	<h5>Club Stella</h5>
-	<button class="btn btn-block btn-default">Join Mailing List</button>
+	<button class="btn btn-block btn-default" data-toggle="modal" data-target="#newsletter-form">Join Mailing List</button>
 	<div id="employment-cta" class="hide-default">
 		<h5>Looking for employment?</h5>
 		<a href="employment.html" class="btn btn-block btn-default">Join Us!</a>
