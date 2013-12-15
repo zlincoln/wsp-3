@@ -8,7 +8,7 @@
 							<span>All rights reserved</span>
 							<span>Dev: <a href="http://zacharylincoln.com" target="_blank">Zachary Lincoln</a></span>
 						</div>
-						<ul class="nav navbar-nav navbar-right hidden-xs social-nav">
+						<ul class="nav navbar-nav navbar-right social-nav">
 							<li><a href="https://www.facebook.com/pages/Stellas-Neighborhood-Grill/126483137434242?sk=wall" target="_blank">f</a></li>
 							<li><a href="https://twitter.com/stellasgrill" target="_blank">l</a></li>
 						</ul>

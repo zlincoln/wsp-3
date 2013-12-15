@@ -40,7 +40,9 @@
 				</div>
 				<!-- -->
 			</div>
-			<?php include('includes/sidebar.php'); ?>
+			<div class="col-sm-4 hidden-xs sidebar">
+				<?php include('includes/sidebar.php'); ?>
+			</div>
 		</div>
 	</div>
 </section>

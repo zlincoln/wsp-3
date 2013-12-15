@@ -31,7 +31,9 @@
 					<button type="submit" class="btn btn-primary btn-block btn-lg">Send!</button>
 				</form>
 			</div>
-			<?php include('includes/sidebar.php'); ?>
+			<div class="col-sm-4 hidden-xs sidebar">
+				<?php include('includes/sidebar.php'); ?>
+			</div>
 		</div>
 	</div>
 </section>

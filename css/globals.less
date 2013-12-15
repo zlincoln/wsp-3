@@ -10,6 +10,10 @@ body{
 	a{
 		color: @stella-orange;
 	}
+	@media(max-width: @screen-sm-max){
+		padding-bottom: 0;
+		background: @steel;
+	}
 }
 
 .btn{
@@ -63,6 +67,10 @@ input, textarea, .form-control{
 	}
 }
 
+div.fluid-width-video-wrapper{
+	margin-bottom: 10px;
+}
+
 nav.navbar-fixed-top{
 	.transition(~'background-color .2s, border-color .2s');
 	background: @text-gray;
@@ -98,6 +106,17 @@ nav.navbar-fixed-top{
 						}
 					}
 				}
+			}
+		}
+	}
+	@media(max-width: @screen-sm-max){
+		&.out{
+			background-color: @text-gray;
+			border-color: @ketchup;
+		}
+		div.navbar-collpase{
+			ul.nav{
+				margin-bottom: 0px;
 			}
 		}
 	}
@@ -143,11 +162,28 @@ footer{
 				}
 			}
 		}	
-	}
-	@media(max-width: @screen-xs-max){
-		text-align: center;
-		.navbar-text{
-			float: none;
+		@media(max-width: @screen-sm-max){
+			text-align: center;
+			position: static;
+			// margin-top: 20px;
+			.navbar-text{
+				float: none;
+				&>span{
+					&:last-child{
+						display: block;
+						&:before{
+							content: '';
+						}
+					}
+				}
+			}
+			.social-nav{
+				float: none;
+				margin: 10px auto;
+				li{
+					display: inline-block;
+				}
+			}
 		}
 	}
 }
@@ -188,5 +224,9 @@ section#main{
 	}
 	.hide-default{
 		display: none;
+	}
+	@media(max-width: @screen-sm-max){
+		background: @cream;
+		padding-bottom: 40px;
 	}
 }

@@ -5,7 +5,7 @@ section#banner{
 	.copy-wrap{
 		background: fadeout(@text-gray, 50%); 
 		color: @cream;
-		padding: 20px 0 20px;
+		padding: 20px 0;
 		h2{
 			font-size: 40/16em;
 			text-transform: uppercase;
@@ -23,13 +23,10 @@ section#banner{
 			background: @orange-red;
 		}
 	}
-}
-section#main.home{
-	.page-heading{
-		@media(max-width: @screen-xs-max){
-			h2{
-				text-align: center;
-			}
+	@media(max-width: @screen-sm-max){
+		.copy-wrap .btn-primary{
+			margin-top: 0;
+			.btn-block();
 		}
 	}
 }
