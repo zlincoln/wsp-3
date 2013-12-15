@@ -1,0 +1,4 @@
+*.php
+.DS_Store
+/includes
+/composites
