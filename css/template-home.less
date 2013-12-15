@@ -1,0 +1,32 @@
+section#banner{
+	padding: 68px 0 20px;
+	background: @text-gray url('../images/home-banner-bg.jpg') center top no-repeat;
+	border-bottom: 8px solid @ketchup; 
+	.copy-wrap{
+		background: fadeout(@text-gray, 50%); 
+		color: @cream;
+		padding: 20px 0;
+		h2{
+			font-size: 40/16em;
+			text-transform: uppercase;
+			margin: 0 0 28px;
+		}
+		p{
+			font-size: 20/16em;
+			line-height: 1.2;
+			margin: 0;
+		}
+		.btn-primary{
+			margin-top: 28px;
+			font-size: 28/16em;
+			padding: 10px 100px;
+			background: @orange-red;
+		}
+	}
+	@media(max-width: @screen-sm-max){
+		.copy-wrap .btn-primary{
+			margin-top: 0;
+			.btn-block();
+		}
+	}
+}
