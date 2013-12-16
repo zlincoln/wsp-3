@@ -95,7 +95,7 @@
 				</div>
 				<div class="col-sm-4 hidden-xs sidebar">
 					<div class="well">
-						<button class="btn btn-primary btn-block" role="button">Directions</button>
+						<button class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#directions">Directions</button>
 						<a href="tel:17702221331" class="btn btn-primary btn-block" role="button">Place an Order</a>
 						<h5>Hours</h5>
 						<ul class="hours">
@@ -112,7 +112,7 @@
 							<li>F: 770.222.3371</li>
 						</ul>
 						<h5>Club Stella</h5>
-						<button class="btn btn-block btn-default">Join Mailing List</button>
+						<button class="btn btn-block btn-default" data-toggle="modal" data-target="#newsletter-form">Join Mailing List</button>
 						<div id="employment-cta" class="hide-default">
 							<h5>Looking for employment?</h5>
 							<a href="employment.html" class="btn btn-block btn-default">Join Us!</a>
@@ -148,6 +148,50 @@
 			</div>
 		</nav>
 	</footer>
+	<div id="directions" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Directions</h4>
+				</div>
+				<div class="modal-body">
+					<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=stella's+grill+austell+ga&amp;aq=&amp;sll=43.871754,-72.451472&amp;sspn=3.401564,8.453979&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;iwloc=A&amp;ll=33.86638,-84.625964&amp;spn=0.006295,0.006295&amp;output=embed"></iframe>
+					<br />
+					<small>
+						<a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=stella's+grill+austell+ga&amp;aq=&amp;sll=43.871754,-72.451472&amp;sspn=3.401564,8.453979&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;iwloc=A&amp;ll=33.86638,-84.625964&amp;spn=0.006295,0.006295" style="color:#0000FF;text-align:left">View Larger Map</a>
+					</small>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="newsletter-form" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Join Club Stella's!</h4>
+				</div>
+				<div class="modal-body">
+					<form class="form">
+						<div class="form-group">
+							<label for="email">
+								Email
+								<span class="small">*</span>
+							</label>
+							<input type="email" class="form-control input-lg" id="email" placeholder="example@email.com" required></div>
+						<button type="submit" class="btn btn-primary btn-block btn-lg">Join!</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script type="text/javascript">
 		$(function(){
 			$('html').removeClass('no-js');
