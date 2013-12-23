@@ -929,6 +929,7 @@ section.menu .tab-heading{display:none;border-top:4px solid #736d63;border-botto
 section#main.photos a.thumbnail{background-color:#51000d;}
 section.contact-us .sidebar #employment-cta{display:block;}
 section.employment .panel-title a{display:block;text-decoration:none;}
+html.no-js iframe{display:none !important;}
 html.no-js .tab-pane{display:block !important;}html.no-js .tab-pane.fade{opacity:1;}
 html.no-js .tab-pane .tab-heading{display:block;}
 @media (max-width:991px){html.no-js footer #mobile-nav-fallback{display:block;}}
