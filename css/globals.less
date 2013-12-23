@@ -199,6 +199,29 @@ footer{
 			}
 		}
 	}
+	#mobile-nav-fallback{
+		display: none;
+		background: @text-gray;
+		ul.nav{
+			// margin-bottom: -2px;
+			li{
+				a{
+					padding: 15px 15px 13px;
+					border-bottom: 2px solid transparent;
+					color: @cream;
+				}
+				&.active, &:hover{
+					a{
+						background: @text-gray;
+						border-bottom: 2px solid @lettuce;
+						&:hover{
+							color: @cream;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 .sidebar{

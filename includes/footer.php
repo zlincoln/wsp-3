@@ -16,6 +16,15 @@
 				</div>
 			</div>
 		</nav>
+		<nav id="mobile-nav-fallback">
+			<ul class="nav nav-stacked">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="events.html">Events</a></li>
+				<li><a href="photos.html">Photos</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
 	</footer>
 	<div id="directions" class="modal fade">
 		<div class="modal-dialog">
