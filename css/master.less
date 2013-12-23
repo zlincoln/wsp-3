@@ -43,3 +43,19 @@
 @import 'template-photos';
 @import 'template-contactus';
 @import 'template-employment';
+
+
+html.no-js{
+  .tab-pane{
+    display: block !important;
+    &.fade{
+      opacity: 1;
+    }
+    .tab-heading{
+      display: block;
+    }
+  }
+  footer #mobile-nav-fallback{
+    display: block;
+  }
+}
