@@ -41,6 +41,9 @@
 				<!-- -->
 			</div>
 			<div class="col-sm-4 hidden-xs sidebar">
+				<div class="img-wrapper">
+					<img class="img-responsive" alt="fun at stella's!" src="images/dining.jpg">
+				</div>
 				<?php include('includes/sidebar.php'); ?>
 			</div>
 		</div>

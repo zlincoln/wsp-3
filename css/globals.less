@@ -45,7 +45,7 @@ body{
 }
 
 input, textarea, .form-control{
-	background: transparent;
+	background: rgba(255,255,255,.3);
 	border: 2px solid @ketchup;
 	color: @ketchup;
 	&:focus{
@@ -103,7 +103,7 @@ nav.navbar-fixed-top{
 	}
 	div.navbar-collapse{
 		ul.nav{
-			margin-bottom: -2px;
+			// margin-bottom: -2px;
 			li{
 				a{
 					padding: 15px 15px 13px;
@@ -242,4 +242,11 @@ section#main{
 		background: @cream;
 		padding-bottom: 40px;
 	}
+}
+
+.img-wrapper{
+	border: 2px solid @ketchup;
+	border-radius: 4px;
+	overflow: hidden;
+	margin-bottom: 20px;
 }

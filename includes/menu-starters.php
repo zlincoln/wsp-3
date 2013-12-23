@@ -1,3 +1,6 @@
+<div class="img-wrapper">
+	<img class="img-responsive" alt="juicy appetizers" src="images/appetizers2.jpg">
+</div>
 <div class="panel panel-default">
 	<div class="panel-heading">
 		<h3 class="panel-title">Beef Nachos</h3>
@@ -69,4 +72,3 @@
 		</ul>
 	</div>
 </div>
-<!-- -->

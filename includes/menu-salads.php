@@ -1,3 +1,6 @@
+<div class="img-wrapper">
+	<img class="img-responsive" alt="fresh salad" src="images/salad2.jpg">
+</div>
 <div class="panel panel-default">
 	<div class="panel-heading">
 		<h3 class="panel-title">Chef Salad</h3>
